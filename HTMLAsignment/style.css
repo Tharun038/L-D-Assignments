@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg');
+    background-repeat: no-repeat;
+    background-size: 100mm 300mm;
+    background-attachment: fixed;
+    background-position: right;
+}
+.align{
+    float: left;
+}
+
+.btn1{
+    background-color: white;
+    padding: 10px 12px;
+    width: 350px;
+    font-weight: bold;
+    border-color: lightgray;
+    color: gray;
+    border-radius: 6px;
+    border-width: 1px;
+    cursor:pointer;
+    font-size: 5mm;
+} 
+.btn2 {
+    background-color: #008CBA;
+    padding: 10px 12px;
+    width: 350px;
+    font-weight: bold;
+    border-color: lightgray;
+    color: white;
+    border-radius: 6px;
+    border-width: 1px;
+    cursor:pointer;
+}
+
+a, p{
+    color: gray;
+    background-color: transparent;
+}
+input[type=text] {
+    padding: 12px 14px;
+    width: 350px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+label {
+    font-weight: bold;
+    color : gray;
+    font-size: 0.7pc;  
+}
+.ForgotPassword{
+    padding-left: 9pc;
+}
+.bodyAlign{
+    padding-left: 20pc;
+    padding-top: 50pt;
+}
+
+
