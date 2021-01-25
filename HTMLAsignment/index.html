@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="styleSheet" href="style.css">
+        <title>Product Board Sign In Page</title>   
+    </head>
+        <body class="bodyAlign">
+            <img class = "align" src="https://cdn.productboard.com/nucleus/favicons/favicon-144x144.png" width="30" height="30"><span><h1 class="text">productboard</h1></span><br><br>
+            <h2 id="a"><b>Sign in to your workspace</b></h2><br>
+            <a href="https://app.productboard.com/users/sign_in/google_oauth2?redirect_to=https%3A%2F%2Fapp.productboard.com%2F">
+            <button class="btn1">
+            <img class = "align" src="https://img-authors.flaticon.com/google.jpg" width="25" height="25">
+            Sign in with Google     
+        </button>
+    </a>
+    <br>
+    <p>----------------------------OR USE EMAIL----------------------------</p>
+    <br>
+    <form>
+        <label id="emailtext">EMAIL</label><br>
+        <input type="text" id="email" placeholder="john@company.com"><br>
+        <label id="passwrdtext">PASSWORD</label><br>
+        <input type="text" id="pwd" placeholder="Password">
+        <i class="far fa-eye" id="Password"></i>
+        <br><br>
+        <input type="checkbox" id="rememberme">
+        <label for="rememberme"> Remember me 
+            <a id="ResetLink" href="/password_resets/new" class="ForgotPassword">Forgot password</a>
+        </label>
+        <br>
+        <button class="btn2">Log me in</button>
+            <p id="p1">Don’t have an account? 
+                <a id="signup" href="/register">Sign up</a> 
+            </p>
+          </form>
+        </body>
+     </html>
